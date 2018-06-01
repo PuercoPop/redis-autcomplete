@@ -1,0 +1,17 @@
+= TODO
+
+== Expose vis's crit-bit through a REPL
+
+ - load file with candidates.
+ - add candidate
+ - remove candidate
+ - complete prefix
+
+== Minimal testing
+
+== Export it as a redis-module
+
+= References
+
+- https://redis.io/topics/modules-intro
+- https://redis.io/documentation

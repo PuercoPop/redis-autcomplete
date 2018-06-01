@@ -1,0 +1,14 @@
+= Autocomplete Module for Redis
+
+- The auto completionsNo errors
+- Set as input, maintains matching trie. With a pattern returns another set
+  with all the matching candidates.
+
+= Commands
+
+We need to add/remove elements to a 'completion set', which updates the
+[internal] trie. Another command to return result sets.
+
+- CZADD [STRING] <CS>
+- CZDEL [STRING] <CS>
+- CPREFIX [PREFIX] <CS>
